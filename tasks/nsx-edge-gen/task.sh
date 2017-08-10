@@ -106,7 +106,7 @@ fi
 -vcenter_addr $VCENTER_HOST   \
 -vcenter_user $VCENTER_USR   \
 -vcenter_pass $VCENTER_PWD   \
--vcenter_dc $VCENTER_DATA_CENTER   \
+-vcenter_dc "$VCENTER_DATA_CENTER"   \
 -vcenter_ds $NSX_EDGE_GEN_EDGE_DATASTORE   \
 -vcenter_cluster $NSX_EDGE_GEN_EDGE_CLUSTER  \
 -nsxmanager_addr $NSX_EDGE_GEN_NSX_MANAGER_ADDRESS   \
